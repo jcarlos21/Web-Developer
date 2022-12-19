@@ -1,0 +1,1 @@
+Neste exercicio cumpri o desafio de criar uma página HTML com todo meu entendimento sobre o curso introdutório.
