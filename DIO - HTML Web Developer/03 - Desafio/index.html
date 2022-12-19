@@ -3,8 +3,9 @@
         <title>Meu Estudo HTML</title>
     </head>
     <body>
-        <h1>Página sobre estudos HTML</h1>
+        <h1 id="inicio"> Página sobre estudos HTML</h1>
         <hr>
+        <small><i>Por: José Carlos dos Santos Data: 19 de dezembro de 2022</i></small>
 
         <h2>Índice</h2>
         <ul>
@@ -15,19 +16,72 @@
             <li> <a href="#aula-05">Aula 05 - Listas ordenadas e não ordenadas</a></li>
         </ul>
         <p>O texto a seguir reflete o entendimento sobre o <strong>Curso Introdutório ao HTML</strong>.</p>
+        <img width="500" src="https://www.w3docs.com/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png" alt="imagem-html">
 
         <h2 id="aula-01">Aula 01 - Estrutura Básica do HTML</h2>
-        <p> Nesta primeira aula entendemos o como está estruturado o HTML.</p>
+        <small><a href="#inicio">[inicio]</a></small>
+        <p> Nesta primeira aula entendemos como o HTML está estruturado. Um página HTML, em sua forma mais básica, é a combinação de tags e atributos dessas tags.</p>
 
-        <h2>Aula 02 - Falando sobre Tags</h2>
+        <h2 id="aula-02">Aula 02 - Falando sobre Tags</h2>
+        <small><a href="#inicio">[inicio]</a></small>
         <p>O esqueleto do HTML está basicamente organizado por meio das seguintes tags:
-        <ul>
-            <li><b>&lt;html&gt; &lt;/html&gt;</b>, que delimitam todo o código da página;</li>
-            <li><b>&lt;head&gt; &lt;/head&gt;</b>, que carregam informações do cabeçalho da página. Ex: o título desta página <b>Meu Estudo HTML</b></li>
-            <li><b>&lt;body&gt; &lt;/body&gt;</b>, dentro dessas tags estarão todo o texto que o usuário irá ver.</li>
-        </ul>
-        
+            <ul>
+                <li><b>&lt;html&gt; &lt;/html&gt;</b>, que delimitam todo o código da página;</li>
+                <li><b>&lt;head&gt; &lt;/head&gt;</b>, que carrega informações do cabeçalho da página. Ex: o título desta página <b>Meu Estudo HTML</b></li>
+                <li><b>&lt;body&gt; &lt;/body&gt;</b>, dentro dessas tags estarão todo o texto que o usuário irá ver.</li>
+            </ul>
+            Outras tags que geralmente aparecem no texto são:
+
+            <ul>
+                <li><b>&lt;img &gt;</b>, responsável por inserir uma imagem no texto.</li>
+                <li><b>&lt;input &gt;</b>, que abre uma caixa de entrada de texto (pode ser número também.</li>
+                <li><b>&lt;strong &gt;</b>, que deixa o texto em negrito (a tag <b>&lt;b&gt; &lt;/b&gt;</b> também realiza o mesmo procedimento).</li>
+                <li><b>&lt;i&gt; &lt;/i&gt;</b>, deixa o texto em itálico, tal como <i>esse texto aqui</i>.</li>
+                <li><b>&lt;h1&gt; &lt;/h1&gt;</b>, refere-se ao títulos (cabeçarios), presentes na página. Essa tag vai de <b>h1</b> até <b>h6</b>. </i>.</li>
+                <li><b>&lt;hr&gt;</b>, serve para inserir uma linha no texto.
+            </ul>            
         </p>
 
+        <h2 id="aula-03">Aula 03 - Atributos das Tags</h2>
+        <small><a href="#inicio">[inicio]</a></small>
+        <p>Na terceira aula tratatmos de alguns atributos das tags vistas anteriormente. Os atributos são palavras especiais que são usados para controlar o comportamento do elemento. A estrutura de um atributo é <b>nome="valor"</b>, onde <b>nome</b> é um atributo e <b>valor</b> é o valor do atributo.</p>
+        <p>Os atributos se apresentam com as tags da seguinte maneira:</p>
+        <p>
+            <ul>
+                <li><b>&lt;img</b> width="500" src"endereco_imagem" alt="nome_imagem"&gt;, esta estrutura está presente nessa página.</li>
+                <li><b>&lt;h2</b> id="aula-01">Aula 01 - Estrutura Básica do HTML" <b>&lt;/h2&gt;</b>, esta estrutura está presente nessa página.</li>
+            </ul>
+        </p>
+
+        <h2 id="aula-04">Aula 04 - Textos</h2>
+        <small><a href="#inicio">[inicio]</a></small>
+        <p>Nesta aula aprendemos um pouco mais sobre as atags e atributos que podem ser usados no texto. Outras tags vistas aqui foram: </p>
+        <p>
+            <ul>
+                <li><b>&lt;blockquote&gt; &lt;/blockquote&gt;</b>, que mostra o texto como uma citação, conforme abaixo;</li>
+                <blockquote><i>Este texto aqui é uma citação, que também está em itálico e <b>esta parte em negrito</b>.</i></blockquote>
+                <li><b>&lt;mark&gt; &lt;/mark&gt;</b>, que faz uma <mark>marcação no texto</mark>;</li>
+                <li><b>&lt;sup&gt; &lt;/sup&gt;</b>, que faz uma <sup>elevação</sup> no texto;</li>
+            </ul>
+        </p>
+
+        <h2 id="aula-05">Aula 05 - Lista ordenadas e não ordenadas</h2>
+        <small><a href="#inicio">[inicio]</a></small>
+
+        <p>Nesta última aula aprendemos sobre as listas ordenadas e não ordenada. Por meio delas podemos inserir no texto itens de listas. Eles podem ser numerados ou apenas conter marcadores. As tags que representam as listas são:</p>
+
+        Lista não-ordenada.:
+        <ul>
+            <li><b>&lt;ul&gt; &lt;/ul&gt;</b>, significa <b>unordered list</b> ou <b>lista não-ordenada</b>;</li>
+            <li><b>&lt;ol&gt; &lt;/ol&gt;</b>, significa <b>ordered list</b> ou <b>lista ordenada</b>;</li>
+            <li><b>&lt;li&gt; &lt;/li&gt;</b>, significa <b>item in a list</b> ou <b>item em uma lista</b>. É preciso sempre que tag <b>ul</b> ou <b>ol</b> for chamada;</li>
+            <li>Esses pontos são lista não-ordenadas</li>
+        </ul>
+        Lista ordenada:
+        <ol>
+            <li>Aqui são marcadores de uma lista ordenada;</li>
+            <li>Um segundo exemplo;</li>
+            <li>Um teceiro exemplo.</li>
+        </ol>
     </body>
 </html>
