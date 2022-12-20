@@ -7,11 +7,25 @@
     <title>Formulario de Cadastro</title>
 </head>
 <body>
-    <form name="signup" onsubmit="alert('Enviei o formulário');" autocomplete="on" target="_blank" method="POST" action="#">  <!--  action="https://meusite.com.br/signup" / Se usar o metodo GET os valores dos campos irão aparecer na URL do navegador.--> 
-        Nome: <input type="text" name="name" /><br>
-        Idade: <input type="number" name="age"/><br>
-        Senha: <input type="password" name="password"/><br>
-        <button type="submit">Enviar</button>
+    <form>
+        <label>Text: </label><input type="text" /><br>
+        <label>Number: </label><input type="number" min="0" step="5" max="99" /><br>
+        <label>Button: </label><input type="button" value="Enviar" />
+        <button>Enviar</button> <br>
+        <label>Range: </label><input type="range" min="0" max="100" value="10"/><br>
+        <label>Color: </label><input type="color" /> <br>
+        <label>E-mail: </label><input type="email" /> <br>
+
+        <label>Url: </label><input type="url" /> <br>
+        <label>Date: </label><input type="date" /> <br>
+        <label>Week: </label><input type="week" /> <br>
+        <label>Month: </label><input type="month" /> <br>
+        <label>Checkbox: </label><input type="checkbox" /><input type="checkbox" /> <br>
+        <label>Radio: </label><input type="radio" name="aceita"/><input type="radio" name="aceita"/> <br>
+        <label>Hidden: </label><input type="hidden"/> <br>
+        <label>File: </label><input type="file" multiple/> <br>
+        <label>Search: </label><input type="search" /> <br>
+        <label>Button: </label><input type="submit" value="Enviar" />
     </form>
 </body>
 </html>
