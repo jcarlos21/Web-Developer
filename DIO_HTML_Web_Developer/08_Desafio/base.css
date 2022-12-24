@@ -20,7 +20,7 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: lightcyan;
     padding: 10px 20px 0px;
 }
 .header {
@@ -33,6 +33,12 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: lightgrey;
     min-height: 150px;
+    font-size: 12px;
+    text-align: center;
+
+}
+.imagemCentrada {
+    text-align: center;
 }
