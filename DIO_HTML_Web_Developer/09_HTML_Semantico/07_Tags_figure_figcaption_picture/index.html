@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <!-- <figure> é um container: dentro da figure todo o conteúdo é relacionado. -->
+    <figure>
+        <img src="https://mediacloud.carbuyer.co.uk/image/private/s--EK2CdAGU--/f_auto,t_primary-image-mobile@1/v1625141899/autoexpress/2021/07/Hyundai%20Tucson-7.jpg" width="250" />
+        <figcaption>Descrição do veículo</figcaption>
+    </figure>
+
+    <img srcset="https://mediacloud.carbuyer.co.uk/image/private/s--EK2CdAGU--/f_auto,t_primary-image-mobile@1/v1625141899/autoexpress/2021/07/Hyundai%20Tucson-7.jpg" width="250" />
+    <p>Descrição do veículo</p>
+
+    <!-- Na tag picture há a possibilidade de se colocar mútlipas fontes para a mesma imagem. Várias versões da mesma para diferente dispositivos.-->
+    <picture>
+        <source srcset="https://media.istockphoto.com/id/485428055/pt/foto/vista-lateral-fotografia-de-est%C3%BAdio-branco-mini-aluguer-de-carros.jpg?s=612x612&w=0&k=20&c=efvqMiWrYXtjFl8HQrbjQ-iggQapiBkErnJVcNF5QC4=" media="(min-width: 600px)">
+        <img src="https://mediacloud.carbuyer.co.uk/image/private/s--EK2CdAGU--/f_auto,t_primary-image-mobile@1/v1625141899/autoexpress/2021/07/Hyundai%20Tucson-7.jpg" />
+    </picture>
+
+</body>
+</html>
