@@ -5,41 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novos atributos do HTML 5</title>
+    <style>
+        fieldset {
+            background-color: lightcyan;
+            /* margin-top: 5px; */
+            margin: auto;
+            width: 475px;
+        }
+        textarea {
+            width: 100%;
+        }
+        button {
+            /* margin-top: 5px;
+            margin-left: 2px; */
+            margin: auto;
+            /* display: grid; */
+        }
+        main > h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <main>
-        <h1>Novo atributos</h1>
-        <form method="get" action="" id="form">
+        <h1 contenteditable>Novo atributos</h1>
+        <form method="get" action="" id="form"></form> <!--O id 'form' foi colocado nos inputs e buttons-->
             <!-- O atributo disabled (do fieldset, pode ser posto em outras tags. Ex.: input) desabilita campos -->
-            <fieldset>
-                <legend>Dados pessoais</legend>
-                <label for="name">
-                    Name:
-                    <input type="text" id="name" name="name" autofocus required>
-                </label>
-                <label for="email">
-                    E-mail:
-                    <input placeholder="Ex.: mymailgmail.com" type="text" id="email" name="email" required>
-                </label>
-            </fieldset>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="name">
+                Name:
+                <input form="form" minlength="5" type="text" id="name" name="name" autofocus required>
+            </label>
+            <label for="email">
+                E-mail:
+                <input form="form" placeholder="Ex.: mymailgmail.com" type="text" id="email" name="email" required>
+            </label>
+        </fieldset>
 
-            <fieldset>
-                <legend>Endereço</legend>
-                <label for="address">
-                    Endereço:
-                    <input type="text" id="address" name="address">
-                </label>
-            </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="address">
+                Endereço:
+                <input form="form" type="text" id="address" name="address">
+            </label>
+        </fieldset>
 
-            <fieldset>
-                <legend>Observações</legend>
-                <textarea placeholder="Type something here..." name="observation" id="observation" cols="30" rows="5"></textarea>
-            </fieldset>
+        <fieldset>
+            <legend>Observações</legend>
+            <textarea form="form" minlength="10" maxlength="250" placeholder="Type something here..." name="observation" id="observation" cols="30" rows="5"></textarea>
+        </fieldset>
 
-            <button type="reset">Limpar</button>
-            <button type="submit">Enviar</button>
-        </form>
-        
+        <button type="reset" form="form">Limpar</button>
+        <button type="submit" form="form">Enviar</button>
+        <!-- </form> -->
+
     </main>
 </body>
 </html>
