@@ -1,1 +1,1 @@
-Curso de Formação HTML
+Curso de Formação HTML, ministrado pelo professor Diogo Mainardes.
