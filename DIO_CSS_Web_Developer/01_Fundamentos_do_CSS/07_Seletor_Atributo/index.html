@@ -17,30 +17,65 @@
         */
 
         /* 5. Seletor de Atributo: [atrib] */
+        /* [atrib=value] */
 
-        [title] {
+        [title="Netflix"] {
             color: red;
         }
+
+        [title="Spotify"] {
+            color: green;
+        }
+
+        [title="Prime"] {
+            color: lightblue;
+        }
+
+        [title~="Streaming"] {
+            background: red;
+        }
+
+        [title|="Ola"] {
+            background: black;
+        }
+
+        [title|="Ola"] {
+            color: white;
+        }
+
+        [href^="http://"] {
+            background: lightgreen;
+        }
+
+        /* Sufixo do atributo */
+        [href$="login"] {
+            background: lightcoral;
+        }
+
+        [href*="aiai"] {
+            background: lightskyblue;
+        }
+
 </style>
 <body>
     <ul>
         <li>
-            <a title="Netflix" href="https://www.netflix.com">
+            <a title="Netflix" href="http://www.netflix.com">
                 Netflix
             </a>
         </li>
         <li>
-            <a title="Prime" href="https://www.primevideo.com">
+            <a title="Streaming Prime" href="http://www.primevideo.com/login">
                 Prime Video
             </a>
         </li>
         <li>
-            <a title="Spotify" href="https://www.spotify.com">
+            <a title="Spotify" href="https://wwwaiai.spotify.com">
                 Spotify
             </a>
         </li>
         <li>
-            <a>
+            <a title="Ola-Disney">
                 Disney Plus
             </a>
         </li>
