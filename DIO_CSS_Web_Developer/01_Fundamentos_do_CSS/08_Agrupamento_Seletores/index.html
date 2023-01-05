@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trilha de CSS</title>
     <style>
+        /* Agrupamento de Seletores */
+        /* h1, p, div {
+            color: red;
+            background: lightblue;
+        } */
+        /* .texto, h1, #link-referencia {
+            color: red;
+        }
 
+        h1, [id^="botao"] {
+            background: lightcoral;
+        } */
+
+        /* deve ser uma tag 'p' e com class="texto" */
+        p.texto {  
+            color: blueviolet;
+        }
+        
+        .texto.teste {
+            color: greenyellow;
+        }
     </style>
 </head>
 <body>
     <h1>Agrupamento de Seletores</h1>
-    <p>Podemos aplicar as mesmas regras CSS para vários seletores diferentes. Para isso, podemos separar os seletores utilizando uma vígula (,).</p>
-    <div>Assim, não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer um só bloco de CSS e reutilizar as mesmas regras!</div>
+    <p class="texto">Podemos aplicar as mesmas regras CSS para vários seletores diferentes. Para isso, podemos separar os seletores utilizando uma vígula (,).</p>
+    <p class="teste texto">Teste</p>
+    <div class="texto">Assim, não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer um só bloco de CSS e reutilizar as mesmas regras!</div>
 
     <br><br>
     <a id="link-referencia" href="#">Clique para ver a documentação</a>
