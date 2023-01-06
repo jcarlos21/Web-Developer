@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /* 
+            Combinadores: qual tipo de relação entre 2
+            seletores.
+            1. Combinador descendente (espaço)
+            2. Combinador filho (>)
+            3. Combinador irmão adjacente (+)
+            4. Combinador irmão em geral (~)
+
+            [SELETOR] [COMBINADOR] [SELETOR]
+        */
+
+        /* .fundo-verde span + p {
+            background: lightgreen;
+        } */
+
+        /* .fundo-verde span ~ p {
+            background: lightgreen;
+        } */
+
+        /* .fundo-verde p + p {
+            background: lightgreen;
+        } */
+
+        .fundo-verde p ~ p {
+            background: lightgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fundo-verde">
+        <p>Elemento 01</p>
+        <p>Elemento 02</p>
+        <span>
+            <p>Elemento 03</p>
+            <p>Elemento 04</p>
+        </span>
+        <p>Elemento 05</p>  <!-- O elemento 5 é considerado irmão do elemento 2 -->
+        <p>Elemento 06</p>
+    </div>
+</body>
+</html>

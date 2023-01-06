@@ -17,6 +17,22 @@
             [SELETOR] [COMBINADOR] [SELETOR]
         */
 
+        /* div + p {
+            color: tomato;
+        } */
+
+        /* .fundo-verde + p {
+            background: lightgreen;
+        } */
+
+        div ~ p {
+            color: tomato;
+        }
+
+        .fundo-verde ~ p {
+            background: lightgreen;
+        }
+
     </style>
 </head>
 <body>
@@ -29,7 +45,7 @@
         </span>
     </div>
 
-    <p>Parágrafo 4, fora da div</p>
+    <p>Parágrafo 4, fora da div</p>  <!-- Este parágrafo é adjacente da div. -->
     <p>Parágrafo 5, fora da div</p>
 
     <div class="fundo-verde">
