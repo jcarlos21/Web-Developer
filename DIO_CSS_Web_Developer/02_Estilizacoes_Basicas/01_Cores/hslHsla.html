@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trilha de CSS</title>
     <style>
+        /* O 'a' no fim de rgb'a' e hsl'a' significa cor alpha */
         #pre-definidas {
             color: blue;
         }
@@ -13,10 +14,12 @@
         #current-color {
             color: deeppink;
             border: 1px solid currentColor;
+            width: 200px;
         }
 
         #rgb {
-            border: 2px solid rgb(255, 0, 0);
+            border: 1px solid rgb(250, 144, 41);
+            width: 200px;
             color: rgb(0, 255, 0);
         }
         #rgba {
@@ -29,6 +32,14 @@
 
         #hex-transparencia {
             color: #0000FF45;
+        }
+
+        #hsl {
+            background: hsl(45, 100%, 80%);
+        }
+
+        #hsla {
+            background: hsla(255, 1010%, 50%, 0.8);
         }
     </style>
 </head>
