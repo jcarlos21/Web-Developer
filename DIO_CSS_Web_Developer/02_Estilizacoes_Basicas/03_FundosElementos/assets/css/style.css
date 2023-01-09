@@ -1,0 +1,26 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+.exemplo {
+    width: 900px;
+    height: 900px;
+    /* background-color: palevioletred; */
+    /* background-image: url('../images/background-1.jpg'); */
+    /* background-image: linear-gradient(lightpink, blue, green); */
+    /* background-image: radial-gradient(yellow, blue, purple); */
+    /* background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px); */
+    background-image: url(../images/Goku.png), url(../images/background-1.jpg);
+}
+
+.exemplo-2 {
+
+    width: 300px;
+    height: 300px;
+    background-color:black;
+        background-image:
+        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
