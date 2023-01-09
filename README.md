@@ -1,3 +1,3 @@
 # Web-Developer
 
-Projetos destinados ao aprendizado de desenvolvimento web envolvendo Frameworks, HTML, CSS e JavaScript.
+Projetos destinados ao aprendizado de desenvolvimento web fazendo de uso de Frameworks, HTML, CSS e JavaScript.
