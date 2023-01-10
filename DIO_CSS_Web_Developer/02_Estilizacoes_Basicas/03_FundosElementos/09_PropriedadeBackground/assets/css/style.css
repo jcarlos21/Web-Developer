@@ -1,0 +1,31 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    background:
+        url('../images/background.jpeg') /*image*/
+        top center / 300px 300px /*position / size */
+        no-repeat /*repeat*/
+        fixed /*attachment*/
+        padding-box /*origin*/
+        content-box /*clip*/
+        red /*color*/
+    ;
+    /*Dá para colocar tudo em linha, basta apagar os comentários.
+    Vale lembrar que uma propriedade background (seja color, image, ect) sobreescrever um background anterior, caso tenha sido definido.s*/
+  
+}
