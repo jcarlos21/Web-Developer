@@ -1,0 +1,37 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/background-1.jpg');
+    background-size: 120px;
+    border: 5px solid red;
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y;
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+}
+
+#no-repeat {
+    background-repeat: no-repeat;
+}
+
+#dois-eixos {
+    background-repeat: space repeat;
+}
