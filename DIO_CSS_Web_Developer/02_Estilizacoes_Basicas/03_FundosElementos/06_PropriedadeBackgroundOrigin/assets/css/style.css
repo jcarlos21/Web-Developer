@@ -1,0 +1,31 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+body {
+    background-color: pink;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 500px;
+    height: 200px;
+    background-image: url('../images/background-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen;
+    padding: 30px;
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box  {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+}
