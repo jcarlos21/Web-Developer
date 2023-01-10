@@ -13,10 +13,10 @@ div {
 }
 
 .exemplo {
-    width: 600px;
+    width: 500px;
     height: 200px;
     background-image: url('../images/background-1.jpg');
-    background-size: cover;
+    background-size: contain;
     border: 1px solid red;
     overflow: auto;
 }
