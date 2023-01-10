@@ -1,0 +1,36 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    background-color: orange;
+    background-image: url('../images/background.jpeg');
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: screen; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: lighten; */
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: soft-light; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: saturation; */
+    /* background-blend-mode: color; */
+    background-blend-mode: luminosity;
+}
