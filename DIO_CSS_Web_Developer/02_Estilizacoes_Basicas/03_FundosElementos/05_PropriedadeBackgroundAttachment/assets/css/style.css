@@ -1,0 +1,34 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+div {
+    margin-bottom: 30px;
+}
+
+body {
+    height: 200vh;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 600px;
+    height: 200px;
+    background-image: url('../images/background-1.jpg');
+    background-size: cover;
+    border: 1px solid red;
+    overflow: auto;
+}
+
+#fixed {
+    background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
+}
