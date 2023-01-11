@@ -1,0 +1,14 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 10px;
+}
