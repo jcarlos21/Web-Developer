@@ -5,7 +5,16 @@
 }
 
 .exemplo {
-    background-color: black;
-    width: 200px;
-    height: 200px;
+    background-color: rgba(74, 201, 24, 0.493);
+    width: 100px;
+    height: 100px;
+    border: 50px solid;
+}
+
+#exemplo-1 {
+    border-image-source: url('../images/santa.png');
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(red, blue);
 }
