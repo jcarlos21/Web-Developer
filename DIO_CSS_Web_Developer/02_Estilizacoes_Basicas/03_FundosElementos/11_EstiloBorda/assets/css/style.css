@@ -8,7 +8,14 @@
     background-color: aqua;
     width: 200px;
     height: 200px;
-    border-color: blue;
-    border-style: solid;
+    /* border-color: blue; */
     border-width: 10px;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+    border-style: dotted dashed solid double;
 }
