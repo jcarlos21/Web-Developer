@@ -1,0 +1,11 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
