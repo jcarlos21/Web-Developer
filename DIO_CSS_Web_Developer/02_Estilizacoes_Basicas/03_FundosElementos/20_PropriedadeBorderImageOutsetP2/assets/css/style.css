@@ -13,6 +13,15 @@
 }
 
 #exemplo-resumido {
+    /* 
+    Ordem da linha de código abaixo:
+        * border-image-source
+        * border-image-slice 
+        * border-image-width
+        * border-image-outset
+        * border-image-repeat
+    */
+
     border-image: url('../images/star.png') 300 / 10px 20px / 1 round;
 }
 
