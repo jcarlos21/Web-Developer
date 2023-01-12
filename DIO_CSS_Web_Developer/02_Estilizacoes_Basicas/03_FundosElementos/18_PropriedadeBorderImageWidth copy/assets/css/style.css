@@ -1,0 +1,28 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: rgba(0, 0, 0, 1);
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+}
+
+#exemplo-1 {
+    border-image-source: url('../images/santa.png');
+    /* border-image-repeat: repeat; */
+    /* border-image-repeat: stretch; */
+    /* border-image-repeat: round; */
+    border-image-repeat: space;
+    /* border-image-slice: 100; */
+    /* border-image-width: auto; */
+
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(rgb(0, 145, 255), rgb(0, 242, 255));
+    border-image-slice: 10;
+}
