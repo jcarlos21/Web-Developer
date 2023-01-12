@@ -1,0 +1,27 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: rgba(0, 0, 0, 1);
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1 {
+    border-image-source: url('../images/star.png');
+    border-image-repeat: round;
+    border-image-slice: 300;
+    border-image-outset: 30px;
+    /* border-image-outset: 30px 10px 60px 100px; */
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(rgb(0, 145, 255), rgb(0, 242, 255));
+    border-image-slice: 10;
+    border-image-outset: 30px 10px 60px 100px;
+}
