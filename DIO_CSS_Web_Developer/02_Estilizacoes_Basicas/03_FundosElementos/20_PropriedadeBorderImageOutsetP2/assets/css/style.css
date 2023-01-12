@@ -22,7 +22,7 @@
         * border-image-repeat
     */
 
-    border-image: url('../images/star.png') 300 / 10px 20px / 1 round;
+    border-image: url('../images/star.png') 300 / 30px / 1 round;
 }
 
 #exemplo-1 {
