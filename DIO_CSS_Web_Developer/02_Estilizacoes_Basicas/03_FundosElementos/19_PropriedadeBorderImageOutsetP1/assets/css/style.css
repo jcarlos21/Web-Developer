@@ -13,7 +13,7 @@
 }
 
 #exemplo-1 {
-    border-image-source: url('../images/santa.png');
+    border-image-source: url('../images/star.png');
     border-image-repeat: round;
     border-image-slice: 100;
     /* border-image-outset: 30px; */

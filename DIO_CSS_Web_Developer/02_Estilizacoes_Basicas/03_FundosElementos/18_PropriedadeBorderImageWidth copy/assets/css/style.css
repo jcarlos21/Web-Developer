@@ -12,7 +12,7 @@
 }
 
 #exemplo-1 {
-    border-image-source: url('../images/santa.png');
+    border-image-source: url('../images/star.png');
     /* border-image-repeat: repeat; */
     /* border-image-repeat: stretch; */
     /* border-image-repeat: round; */
