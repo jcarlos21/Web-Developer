@@ -1,0 +1,24 @@
+@import url('https://projects.verou.me/css3patterns/');
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100px;
+    height: 100px;
+    border: 50px solid;
+    margin: auto;
+}
+
+#exemplo-1 {
+    border-image-source: url('../images/santa.png');
+    border-image-repeat: round;
+    border-image-slice: 100;
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(rgb(0, 145, 255), rgb(0, 242, 255));
+    border-image-slice: 10;
+}
