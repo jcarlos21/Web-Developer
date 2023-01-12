@@ -9,7 +9,11 @@
     width: 200px;
     height: 200px;
     border: 30px solid;
-    margin: 50px auto;
+    margin: 70px auto;
+}
+
+#exemplo-resumido {
+    border-image: url('../images/star.png') 300 / 10px 20px / 1 round;
 }
 
 #exemplo-1 {
