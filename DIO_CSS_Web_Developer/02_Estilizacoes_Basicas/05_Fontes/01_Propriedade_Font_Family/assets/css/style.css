@@ -1,32 +1,4 @@
-@import url('https://projects.verou.me/css3patterns/');
-
-div {
-    margin-bottom: 30px;
+* {
+    font-family: 'Times New Roman', 'Arial', 'Georgia', fantasy;
 }
 
-.exemplo {
-    width: 500px;
-    height: 300px;
-    background-image: url('../images/Goku.png'), url('../images/background-1.jpg');
-}
-
-#cover {
-    background-size: cover;
-}
-
-#contain {
-    background-size: contain;
-}
-
-#tamanho {
-    background-size: 100%;
-}
-
-#exemplo-x-y {
-    background-size: 200px 100%;
-}
-
-#exemplo-camadas {
-    /* background-size: 500px 100%, cover; */
-    background-size: contain, cover;
-}
