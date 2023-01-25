@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trilha de CSS</title>
+    <style>
+        h1 + p {
+            color: blue;
+            /* text-decoration: underline; */
+            /* text-decoration: line-through; */
+            /* text-decoration: overline; */
+            /* text-decoration-line: overline;
+            text-decoration-style: wavy;
+            text-decoration-color: brown;
+            text-decoration-thickness: 5px; */
+
+            text-decoration: overline wavy brown 5px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <h1>Propriedade <code>text-decoration</code></h1>
@@ -18,5 +35,8 @@
             <li><code>text-decoration-thickness</code></li>
         </ul>
     </p>
+    <a href="#">Link de Exemplo</a>
+    <br>
+    <s>teste de exemplo</s>
 </body>
 </html>
