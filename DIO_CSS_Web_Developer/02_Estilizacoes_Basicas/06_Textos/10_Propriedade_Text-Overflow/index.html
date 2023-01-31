@@ -12,38 +12,43 @@
             background-color: chartreuse;
         }
 
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
         #exemplo-01 {
-            writing-mode: horizontal-tb;
+            text-overflow: clip;
         }
 
         #exemplo-02 {
-            writing-mode: vertical-rl;
+            text-overflow: ellipsis;
         }
 
         #exemplo-03 {
-            writing-mode: vertical-lr;
+            text-overflow: 'Ver mais >'; /*Só funciona no FireFox*/
         }
     </style>
 </head>
 <body>
-    <h2>Propriedade <code>wrinting-mode</code></h2>
+    <h2>Propriedade <code>text-overflow</code></h2>
     <p>Define a orientação do texto (vertical ou horizontal).</p>
 
     <i>Exemplo:</i>
 
-    <code>wrinting-mode: horizontal-tb</code>
+    <code>text-overflow: clip;</code>
     <p id="exemplo-01" class="exemplo">
         Chega de saudade
         A realidade é que sem ela não há paz
     </p>
 
-    <code>wrinting-mode: vertical-rl</code>
+    <code>ext-overflow: ellipsis;</code>
     <p id="exemplo-02" class="exemplo">
         Chega de saudade
         A realidade é que sem ela não há paz
     </p>
 
-    <code>wrinting-mode: vertical-lr</code>
+    <code>ext-overflow: string;</code>
     <p id="exemplo-03" class="exemplo">
         Chega de saudade
         A realidade é que sem ela não há paz
