@@ -9,15 +9,32 @@
         div {
             width: 200px;
             height: 200px;
-            border: 10px solid #8f382e;
+            /* border: 10px solid #8f382e; */
             margin: 20px auto;
-            background: #fa8072;
-            box-shadow: 30px 30px 20px -7px blue;
+            object-fit: cover;
+            box-shadow: 10px 10px 5px gray;
+            /* background: #fa8072; */
+            /* box-shadow: 30px 30px 20px -7px blue; */
+            /* box-shadow: inset 10px 10px 10px 7px blue; */
+            /* box-shadow: inset 10px 10px 10px 7px blue, 20px 20px 10px red; */
+        }
+
+        img {
+            width: 500px;
+            height: 200px;
+            margin: 20px auto;
+            object-fit: cover;
+            box-shadow: 10px 10px 5px blue;
+            /* Cria uma sobra em torno do nosso elemento. */
+            filter: drop-shadow(10px 10px 5px gray);
+
         }
     </style>
 </head>
 <body>
     <h1>Propriedade <code>box-shadow</code></h1>
-    <div></div>
+    
+    <img src="/01_EfeitoSombraElementos/dio.png" alt="dio">
+    <!-- <div></div> -->
 </body>
 </html>
